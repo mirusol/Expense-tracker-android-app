@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:id="@+id/main"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="24dp"
+        android:gravity="center_horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Expense Tracker"
+            android:textSize="28sp"
+            android:textStyle="bold"
+            android:textColor="#5f5f5f"
+            android:layout_marginBottom="24dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Transactions"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:textColor="#5f5f5f"
+            android:layout_marginBottom="12dp" />
+
+        <Button
+            android:id="@+id/btn_add_transaction"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Add Transaction"
+            android:layout_marginBottom="12dp" />
+
+        <Button
+            android:id="@+id/btn_view_transactions"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="View Transactions"
+            android:layout_marginBottom="12dp" />
+
+        <Button
+            android:id="@+id/btn_filter_transactions"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Filter Transactions"
+            android:layout_marginBottom="24dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Budget Management"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:textColor="#5f5f5f"
+            android:layout_marginBottom="12dp" />
+
+        <Button
+            android:id="@+id/btn_set_budget"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Set Budget"
+            android:layout_marginBottom="12dp" />
+
+        <Button
+            android:id="@+id/btn_view_budget_status"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="24dp"
+            android:text="View Budget Status" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Savings Goal"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:textColor="#5f5f5f"
+            android:layout_marginBottom="12dp" />
+
+        <Button
+            android:id="@+id/btn_start_savings_service"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="12dp"
+            android:text="Start Savings Service" />
+
+        <Button
+            android:id="@+id/btn_stop_savings_service"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Stop Savings Service"
+            android:layout_marginBottom="24dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Utilities"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:textColor="#5f5f5f"
+            android:layout_marginBottom="12dp" />
+
+        <Button
+            android:id="@+id/btn_backup"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Backup Transactions"
+            android:layout_marginBottom="12dp" />
+
+        <Button
+            android:id="@+id/btn_toggle_theme"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Toggle Theme"
+            android:layout_marginBottom="12dp" />
+
+        <Button
+            android:id="@+id/btn_share_transactions"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Share Recent Transactions"
+            android:layout_marginBottom="24dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Stock Market Values"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:textColor="#5f5f5f"
+            android:layout_marginBottom="12dp" />
+
+        <TextView
+            android:id="@+id/stock_market_values"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#f0f0f0"
+            android:padding="16dp"
+            android:text="Loading stock market data..."
+            android:textColor="#5f5f5f"
+            android:layout_marginBottom="24dp" />
+    </LinearLayout>
+</ScrollView>
